@@ -8,7 +8,7 @@ package org.cheng.seckill.dto;
 public class Exposer {
 
     /**
-     * 秒杀是否开启状态
+     * 是否开启秒杀
      */
     private boolean exposed;
     /**
@@ -25,7 +25,7 @@ public class Exposer {
      */
     private long now;
     /**
-     * 开始时间
+     * 开启时间
      */
     private long start;
     /**

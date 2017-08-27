@@ -66,6 +66,14 @@ public class SeckillExecution {
         this.successKilled = successKilled;
     }
 
+    public String getStateInfo() {
+        return stateInfo;
+    }
+
+    public void setStateInfo(String stateInfo) {
+        this.stateInfo = stateInfo;
+    }
+
     @Override
     public String toString() {
         return "SeckillExecution{" +
